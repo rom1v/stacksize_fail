@@ -28,4 +28,6 @@ $ x/sample
 device = 2
 ```
 
-See https://github.com/libsdl-org/SDL/issues/7367
+Refs:
+ - <https://github.com/libsdl-org/SDL/issues/7367>
+ - <https://github.com/rom1v/avdevice_stackfail>
