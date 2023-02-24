@@ -1,6 +1,9 @@
 #include <SDL2/SDL.h>
+#include <libavdevice/avdevice.h>
 
 int main(void) {
+    avdevice_register_all();
+
     if (SDL_Init(SDL_INIT_AUDIO)) {
         fprintf(stderr, "SDL_Init failed: %s", SDL_GetError());
         return 1;
